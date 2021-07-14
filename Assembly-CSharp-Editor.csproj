@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{34F8B5DA-0160-BD9C-BB2D-CA9863E12730}</ProjectGuid>
+    <ProjectGuid>{30DF2495-DBB3-17A4-0755-149EA8CC7081}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -56,100 +56,100 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Joystick Pack\Scripts\Editor\VariableJoystickEditor.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Editor\DynamicJoystickEditor.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\MainWindow\HMSMainWindow.cs" />
-    <Compile Include="Assets\Huawei\Editor\Utils\HMSPluginUpdaterInit.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Sequence\SequenceDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Depth.cs" />
     <Compile Include="Assets\Huawei\Editor\View\MainWindow\GameServiceToggleEditor.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Menu\Menu.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Dropdown\StringDropdown.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Toggle\Toggle.cs" />
     <Compile Include="Assets\Huawei\Editor\General\UI\Space.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\RemoteConfigTab\HMSRemoteConfigAdderDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\CloudDBTab\HMSCloudDBSettingsDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\MainWindow\RemoteConfigToggleEditor.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Button\Button.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Dropdown\IDropdown.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\HMSGameServiceTabFactory.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\RemoteConfigTab\HMSRemoteConfigTabFactory.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Window\ModalDialog.cs" />
-    <Compile Include="Assets\Huawei\Editor\Extensions\WindowExtensions.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\TextField\TextField.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\MainWindow\IAPToggleEditor.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\HelpBox\HelpBox.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Menu\EditableMenu.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\MainWindow\CrashToggleEditor.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Toggle\ToggledTextFieldWithButton.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Sequence\HorizontalSequenceDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\LeaderboardManipulator.cs" />
-    <Compile Include="Assets\Huawei\Editor\Utils\HMSGradleWorker.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\MainWindow\AdsToggleEditor.cs" />
-    <Compile Include="Assets\Huawei\Editor\Utils\HMSPluginUpdater.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\List\AlteratingListDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\Extensions\StringExtensions.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Editor\VariableJoystickEditor.cs" />
     <Compile Include="Assets\Huawei\Editor\General\UI\Collections\IReadOnlyList.cs" />
-    <Compile Include="Assets\Huawei\Editor\Utils\HMSGradleFixer.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\DisabledDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\InAppPurchaseTab\HMSIAPSettingsDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\Utils\HMSPackageChecker.cs" />
     <Compile Include="Assets\Huawei\Editor\General\UI\Window\ModalWindow.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Sequence\VerticalSequenceDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\Extensions\CollectionExtensions.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Sequence\EmptySequenceDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\List\ListDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\MainWindow\PushToggleEditor.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\ConditionalDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\MainWindow\NearbyServiceToggleEditor.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\InAppPurchaseTab\HMSIAPProductAdderDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\IDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\TextField\ReturnChecker.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\InAppPurchaseTab\HMSIAPTabFactory.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Editor\FloatingJoystickEditor.cs" />
     <Compile Include="Assets\Huawei\Editor\General\UI\PersistentFoldout.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\LongProcess.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\RemoteConfigTab\HMSRemoteConfigSettingsDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\HMSLeaderboardAdderDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Label\Label.cs" />
     <Compile Include="Assets\Huawei\Editor\View\AdsTab\HMSAdsTabFactory.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\AchievementsManipulator.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\TabBar\TabBar.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Window\DisplayDialog.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\MainWindow\AuthToggleEditor.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Focusable.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\MainWindow\AccountToggleEditor.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\AdsTab\HMSAdsSettingsDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\Utils\WindowEditRedirect.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\CustomEditorDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Label\DelegatedLabel.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Dropdown\EnumDropdown.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\InAppPurchaseTab\IAPProductManipulator.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\Utils\ICollectionManipulator.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\TabBar\TabView.cs" />
     <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\HMSGameServiceSettingsDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\InlineGroup.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Button\Clickable.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\MainWindow\HelpboxAGConnectFile.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\RemoteConfigTab\DefaultValueManipulator.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\HMSAchievementsAdderDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\HorizontalLine.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Spacer.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\MainWindow\DriveKitToggleEditor.cs" />
     <Compile Include="Assets\Huawei\Editor\General\UI\ScrollView\ScrollView.cs" />
     <Compile Include="Assets\Huawei\Editor\General\UI\Foldout.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\MainWindow\AnalyticsToggleEditor.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\TextField\TextFieldWithAccept.cs" />
     <Compile Include="Assets\Huawei\Editor\General\UI\TimedDrawer.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\Window\HMSEditorWindow.cs" />
     <Compile Include="Assets\Huawei\Editor\View\CloudDBTab\HMSCloudDBTabFactory.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\MainWindow\ToggleEditor.cs" />
-    <Compile Include="Assets\Huawei\Editor\General\UI\HelpBox\RichHelpBox.cs" />
-    <Compile Include="Assets\Huawei\Editor\View\MainWindow\CloudDBToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\Utils\HMSPluginUpdaterInit.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Depth.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Window\ModalDialog.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\IDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Label\DelegatedLabel.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\Utils\ICollectionManipulator.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Button\Clickable.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\HMSGameServiceTabFactory.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\TextField\TextField.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\RemoteConfigToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\Utils\HMSPluginUpdater.cs" />
+    <Compile Include="Assets\Huawei\Editor\Utils\HMSGradleFixer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\NearbyServiceToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\InAppPurchaseTab\HMSIAPProductAdderDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\LongProcess.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Label\Label.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\TabBar\TabBar.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\Utils\WindowEditRedirect.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\TabBar\TabView.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\InlineGroup.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Spacer.cs" />
     <Compile Include="Assets\Huawei\Editor\Extensions\ActionExtensions.cs" />
     <Compile Include="Assets\Huawei\Editor\View\MainWindow\HMSMainKitsTabFactory.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Menu\Menu.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Dropdown\StringDropdown.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\RemoteConfigTab\HMSRemoteConfigAdderDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\Extensions\WindowExtensions.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Toggle\ToggledTextFieldWithButton.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\AdsToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\List\ListDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\ConditionalDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\RemoteConfigTab\HMSRemoteConfigSettingsDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Focusable.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Dropdown\EnumDropdown.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Window\HMSEditorWindow.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Sequence\SequenceDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\CloudDBTab\HMSCloudDBSettingsDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\IAPToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\Extensions\StringExtensions.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Sequence\EmptySequenceDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\Extensions\CollectionExtensions.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Editor\JoystickEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\AdsTab\HMSAdsSettingsDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\HelpboxAGConnectFile.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\RemoteConfigTab\HMSRemoteConfigTabFactory.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\HelpBox\HelpBox.cs" />
+    <Compile Include="Assets\Huawei\Editor\Utils\HMSGradleWorker.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\TextField\ReturnChecker.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\InAppPurchaseTab\HMSIAPTabFactory.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\HMSLeaderboardAdderDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Window\DisplayDialog.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\HMSAchievementsAdderDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\RemoteConfigTab\DefaultValueManipulator.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\DriveKitToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\AnalyticsToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\TextField\TextFieldWithAccept.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\ToggleEditor.cs" />
     <Compile Include="Assets\Huawei\Editor\View\MainWindow\AppMessagingToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\HelpBox\RichHelpBox.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\CloudDBToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Toggle\Toggle.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Button\Button.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Menu\EditableMenu.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Sequence\HorizontalSequenceDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\List\AlteratingListDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\Utils\HMSPackageChecker.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\PushToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\AuthToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\CustomEditorDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\InAppPurchaseTab\IAPProductManipulator.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Dropdown\IDropdown.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\CrashToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\LeaderboardManipulator.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\DisabledDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\InAppPurchaseTab\HMSIAPSettingsDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\Sequence\VerticalSequenceDrawer.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\GameServiceTab\AchievementsManipulator.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\AccountToggleEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\General\UI\HorizontalLine.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Editor\DynamicJoystickEditor.cs" />
+    <Compile Include="Assets\Huawei\Editor\View\MainWindow\HMSMainWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -392,6 +392,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="HuaweiMobileServices">
+      <HintPath>Assets\Huawei\Dlls\HuaweiMobileServices.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.5.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -403,9 +406,6 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.5.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="HuaweiMobileServices">
-      <HintPath>Assets\Huawei\Dlls\HuaweiMobileServices.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -863,7 +863,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{8077D552-0A8B-C2E4-C466-BC0DA147AB52}</Project>
+      <Project>{8424DC79-710A-284D-766C-AE0450F23E63}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

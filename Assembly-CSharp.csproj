@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8077D552-0A8B-C2E4-C466-BC0DA147AB52}</ProjectGuid>
+    <ProjectGuid>{8424DC79-710A-284D-766C-AE0450F23E63}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,75 +56,75 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Huawei\Demos\Push\PushDemoManager.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\Huawei\Scripts\AuthService\HMSAuthServiceManager.cs" />
     <Compile Include="Assets\Scripts\AnimatedSprite.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Utils\HuaweiConstants.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Game\HMSLeaderboardEntry.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Settings\HMSRemoteConfigSettings.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Utils\HMSSingleton.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Utils\SerializableDictionary.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\Scripts\Higgsman.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Push\HMSPushKitManager.cs" />
+    <Compile Include="Assets\Huawei\Scripts\IAP\HMSIAPProductType.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Settings\Settings.cs" />
+    <Compile Include="Assets\Huawei\Scripts\AppMessaging\HMSAppMessagingManager.cs" />
+    <Compile Include="Assets\Huawei\Demos\IAP\IapDemoManager.cs" />
     <Compile Include="Assets\Scripts\GhostHome.cs" />
     <Compile Include="Assets\Scripts\GhostChase.cs" />
+    <Compile Include="Assets\Huawei\Demos\Game\GameDemoManager.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Settings\HMSAdsKitSettings.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Game\HMSSaveGameManager.cs" />
     <Compile Include="Assets\Scripts\Passage.cs" />
     <Compile Include="Assets\Scripts\GhostEyes.cs" />
     <Compile Include="Assets\Scripts\Node.cs" />
-    <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
-    <Compile Include="Assets\Scripts\PowerPellet.cs" />
-    <Compile Include="Assets\Scripts\GhostFrightened.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-    <Compile Include="Assets\Scripts\GhostScatter.cs" />
-    <Compile Include="Assets\Scripts\Movement.cs" />
-    <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
-    <Compile Include="Assets\Scripts\Pellet.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\GhostBehaviour.cs" />
-    <Compile Include="Assets\Scripts\Ghost.cs" />
-    <Compile Include="Assets\Huawei\Scripts\IAP\UnityPurchase\HuaweiStore.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Game\HMSLeaderboardManager.cs" />
-    <Compile Include="Assets\Huawei\Scripts\AppMessaging\HMSAppMessagingManager.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Settings\HMSIAPProductListSettings.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Utils\HMSSingleton.cs" />
-    <Compile Include="Assets\Huawei\Demos\IAP\IapDemoManager.cs" />
-    <Compile Include="Assets\Huawei\Demos\RemoteConfig\RemoteConfigDemo.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Ads\HMSAdsKitManager.cs" />
-    <Compile Include="Assets\Huawei\Scripts\AuthService\HMSAuthServiceManager.cs" />
     <Compile Include="Assets\Huawei\Scripts\Analytics\HMSAnalyticsManager.cs" />
     <Compile Include="Assets\Huawei\Demos\Analytics\AnalyticsDemoManager.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Settings\HMSGameServiceSettings.cs" />
     <Compile Include="Assets\Huawei\Demos\CloudDB\CloudDBDemo.cs" />
-    <Compile Include="Assets\Huawei\Demos\Game\GameDemoManager.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Settings\HMSAdsKitSettings.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Settings\HMSIAPKitSettings.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Utils\SerializableDictionary.cs" />
-    <Compile Include="Assets\Huawei\Scripts\NearbyService\HMSNearbyServiceManager.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Game\HMSSaveGameManager.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Settings\HMSAchievementsSettings.cs" />
+    <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Huawei\Demos\NearbyService\NearbyDemoManager.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Utils\HuaweiConstants.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Settings\HMSMainEditorSettings.cs" />
     <Compile Include="Assets\Huawei\Scripts\CloudDB\BookInfo.cs" />
-    <Compile Include="Assets\Huawei\Scripts\IAP\UnityPurchase\HuaweiPurchasingModule.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Game\HMSGameManager.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Game\HMSLeaderboardEntry.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Push\HMSPushKitManager.cs" />
+    <Compile Include="Assets\Scripts\PowerPellet.cs" />
     <Compile Include="Assets\Huawei\Scripts\Utils\HMSSafeArea.cs" />
-    <Compile Include="Assets\Huawei\Scripts\IAP\HMSIAPProductType.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Game\HMSAchievementsEntry.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Settings\HMSRemoteConfigSettings.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Crash\HMSCrashManager.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Settings\Settings.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Settings\SettingsScriptableObject.cs" />
     <Compile Include="Assets\Huawei\Demos\Account\AccountDemoManager.cs" />
     <Compile Include="Assets\Huawei\Scripts\Account\HMSAccountManager.cs" />
     <Compile Include="Assets\Huawei\Scripts\IAP\HMSIAPManager.cs" />
-    <Compile Include="Assets\Huawei\Scripts\Settings\HMSRemoteDefaultValueSettings.cs" />
-    <Compile Include="Assets\Huawei\Scripts\CloudDB\HMSCloudDBManager.cs" />
-    <Compile Include="Assets\Huawei\Demos\AuthService\AuthServiceDemo.cs" />
     <Compile Include="Assets\Huawei\Scripts\Game\HMSAchievementsManager.cs" />
     <Compile Include="Assets\Huawei\Scripts\Utils\ScriptableHelper.cs" />
+    <Compile Include="Assets\Huawei\Scripts\RemoteConfig\HMSRemoteConfigManager.cs" />
+    <Compile Include="Assets\Huawei\Scripts\IAP\UnityPurchase\HuaweiStore.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Settings\HMSIAPProductListSettings.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Ads\HMSAdsKitManager.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Settings\HMSIAPKitSettings.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Settings\HMSAchievementsSettings.cs" />
+    <Compile Include="Assets\Scripts\GhostFrightened.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Game\HMSGameManager.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Settings\SettingsScriptableObject.cs" />
+    <Compile Include="Assets\Huawei\Scripts\CloudDB\HMSCloudDBManager.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Crash\HMSCrashManager.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Settings\HMSRemoteDefaultValueSettings.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Game\HMSLeaderboardManager.cs" />
+    <Compile Include="Assets\Huawei\Demos\RemoteConfig\RemoteConfigDemo.cs" />
+    <Compile Include="Assets\Scripts\GhostScatter.cs" />
+    <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Settings\HMSMainEditorSettings.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Game\HMSAchievementsEntry.cs" />
+    <Compile Include="Assets\Scripts\Pellet.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Huawei\Scripts\Settings\HMSGameServiceSettings.cs" />
+    <Compile Include="Assets\Huawei\Scripts\NearbyService\HMSNearbyServiceManager.cs" />
+    <Compile Include="Assets\Huawei\Scripts\IAP\UnityPurchase\HuaweiPurchasingModule.cs" />
+    <Compile Include="Assets\Scripts\GhostBehaviour.cs" />
+    <Compile Include="Assets\Huawei\Demos\AuthService\AuthServiceDemo.cs" />
+    <Compile Include="Assets\Scripts\Ghost.cs" />
     <Compile Include="Assets\Huawei\Scripts\Settings\HMSLeaderboardSettings.cs" />
     <Compile Include="Assets\Huawei\Demos\Ads\AdsDemoManager.cs" />
-    <Compile Include="Assets\Huawei\Demos\Push\PushDemoManager.cs" />
-    <Compile Include="Assets\Huawei\Scripts\RemoteConfig\HMSRemoteConfigManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Huawei\Dlls\HuaweiMobileServices.dll" />
@@ -345,11 +345,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="HuaweiMobileServices">
       <HintPath>Assets\Huawei\Dlls\HuaweiMobileServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
