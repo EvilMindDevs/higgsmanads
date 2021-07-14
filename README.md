@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/67346749/125593360-13498f41-6563-4e8f-ad19-cb403638b37c.PNG)
 
-Higgsman project is a pacman game for Unity mobile platform with Huawei Mobile Services Plugin Ads Kit integration .
+Higgsman project is a pacman game for Unity mobile platform with Huawei Mobile Services Plugin Ads Kit integration.
 
 It is an arcade labyrinth action game developed by Namco. 
 
