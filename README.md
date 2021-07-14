@@ -16,7 +16,7 @@ This plugin supports:
 
 **Make sure to download the corresponding unity package for the Unity version you are using from the release section**
 
-## Troubleshooting
+## Troubleshooting 1
 Please check our [wiki page](https://github.com/EvilMindDevs/hms-unity-plugin/wiki/Troubleshooting)
 
 ## Status
@@ -138,7 +138,7 @@ Then you can call certain functions such as
 ```
 This reference game project's GameManager script can be observed as an example for ads integration
 
-## Troubleshoot
+## Troubleshooting 2
 1.If you received package name error , please check your package name on File->Build Settings -> Player Settings -> Other Settings -> Identification
 
 ![image](https://user-images.githubusercontent.com/67346749/125590558-e0548c36-b4e9-4510-85bb-5098c7fd9cc9.PNG)
