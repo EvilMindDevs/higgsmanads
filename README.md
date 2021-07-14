@@ -1,8 +1,24 @@
 # Unity Mobile Reference Game with Huawei Mobile Services Plugin Ads Kit 
 
-The HMS Unity plugin helps you integrate Advertisement component of Huawei Mobile Services in your Unity game:
+![image](https://user-images.githubusercontent.com/67346749/125593360-13498f41-6563-4e8f-ad19-cb403638b37c.PNG)
 
-* Ads: Interstitial, rewarded videos and banner
+Higgsman project is a pacman game for Unity mobile platform with Huawei Mobile Services Plugin Ads Kit integration .
+
+It is an arcade labyrinth action game developed by Namco. 
+
+Purpose: All dots should be eaten before Ghosts catch you to win the game.
+
+**Ads Features:**
+
+You will be lead to rewarded ad when you lost 3 health to win one more. 
+
+You will be shown banner ad after you lost you all 3 health and skip the rewarded Ad . 
+
+After Game Over you will be shown Interstitial Ad
+
+ HMS Unity plugin used in this project for mobile Advertisement. It helps you integrate different advertisement formats of Huawei Mobile Services in to your Unity game.
+
+* Ad Formats: Interstitial, rewarded videos and banner
 
 
 ## Requirements
@@ -151,6 +167,15 @@ please set your API level as implied in the **Requirements** section
 
 ![image](https://user-images.githubusercontent.com/67346749/125591510-fc1bbd04-b344-4924-83e9-52342a39325e.PNG)
 
+## Special Thanks
+Adam Graham's pacman tutorial project used as unity base of this project.You can follow & support him from:
 
+https://github.com/adamgraham
+
+Project code:
+
+https://github.com/zigurous/unity-pacman-tutorial
+
+Changes: Mobile input integration, Best score track integration, HMS Unity Plugin Ads Kit integration
 
 
