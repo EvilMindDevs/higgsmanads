@@ -145,7 +145,7 @@ This reference game project's GameManager script can be observed as an example f
 
 2.If you received min sdk error , 
 
-![image](https://user-images.githubusercontent.com/67346749/125591786-9af1a0c7-394e-4b9c-b718-f362579366d2.PNG)
+![image](https://user-images.githubusercontent.com/67346749/125592730-940912c8-f9b4-4f8b-8fe4-b13532342613.PNG)
 
 please set your API level as implied in the **Requirements** section
 
