@@ -154,6 +154,19 @@ Then you can call certain functions such as
 ```
 This reference game project's GameManager script can be observed as an example for ads integration
 
+**Banner Ad**
+
+<img src="https://user-images.githubusercontent.com/67346749/127282056-f5737688-b64b-405f-aca9-c165569de556.jpg" width=50% height=50%>
+
+**Interstitial Ad**
+
+<img src="https://user-images.githubusercontent.com/67346749/127282326-878adebe-387b-4df7-b9ec-53194623874f.jpg" width=50% height=50%>
+
+**Rewarded Ad**
+
+<img src="https://user-images.githubusercontent.com/67346749/127282416-1134dc2d-2fe9-4d2b-a9e2-a95b39252735.jpg" width=25% height=25%>
+
+
 ## Troubleshooting 2
 1.If you received package name error , please check your package name on File->Build Settings -> Player Settings -> Other Settings -> Identification
 
